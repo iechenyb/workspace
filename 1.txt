@@ -1,3 +1,7 @@
 asdads
 content add by server github
+<<<<<<< HEAD
 第二次修改在本地仓库在更新服务器的第二次修改之前
+=======
+第二次修在远端服务器上
+>>>>>>> e5f3bee8703e9a3363d1bcf0865c11d95fd9eb7e
