@@ -5,11 +5,10 @@
 4. git checkout [remote branch](若分支为本地分支，则需切换到服务器的远程分支)
 5. git pull  本地未更新最新版本并且做了修改，pull时会有冲突，内容会合并。
 若命令执行成功，则更新代码成功！
+
 如果希望保留生产服务器上所做的改动,仅仅并入新配置项, 处理方法如下:
 5 git stash 
+6 git pull
+7 git stash pop
 
-7 git pull
-
-8 git stash pop
-
-9 git mergetool 直接合并到远端服务器上
+8 git mergetool 直接合并到远端服务器上
